@@ -1,0 +1,99 @@
+body{
+    background-color: #f2eded;
+}
+h2{
+    font-family: 'Lobster', cursive;
+    font-size: 30pt;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 20pt;
+    border-top: 0;
+}
+img{
+    width: 100%;
+}
+.eve{
+    margin-top: 50px;
+    width:100%;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    font-size: 40px;
+    border: none;
+    }
+    .sente{
+        font-family: 'Mansalva', cursive;
+        font-size: 40pt; 
+    }
+    .highlight{
+        color:#f47695;
+        font-family: 'Mansalva', cursive; 
+    }
+    .all_center{
+        display:flex;
+        justify-content: right;
+        align-items: center;
+    }
+.beaut_pic{
+    width: 400px;
+   justify-content: center;
+   padding-left: 50pt;
+   padding-top: 0;
+   margin-top: 0;
+   border-top: 0;
+}
+.logo{
+    display:flex;
+    width: 200px;
+    padding-top: 0pt;
+    padding-left: 5pt;
+    text-align: center;
+}
+.containner{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.parent{
+    display: inline-block;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 25pt;
+    color: azure;
+    background-color: #f47695;
+    padding: 9pt;
+    border-radius: 15pt;
+    margin-left: 20pt;
+    -webkit-box-shadow: 5px 6px 19px -11px rgba(0,0,0,1);
+    -moz-box-shadow: 5px 6px 19px -11px rgba(0,0,0,1);
+    box-shadow: 5px 6px 19px -11px rgba(0,0,0,1);
+}
+.hobby{
+    font-size: 30pt;
+}
+.image{
+  display: flex;
+  width: 100px;
+  padding:6pt;
+  margin-left: 15pt;
+  margin-top: 30pt;
+  display: inline-block;
+  text-align: center;
+  border:5px dashed pink;
+  border-radius: 30px;
+ font-size: 12pt;
+ font-family: 'Mitr', sans-serif;
+ background-color: azure;
+ color: black;
+}
+#one{
+    position: static;
+    width: 100px;
+}
+ul{
+    list-style:none ;
+}
+.line {
+    display: flex;
+    justify-content: center;
+}
+
